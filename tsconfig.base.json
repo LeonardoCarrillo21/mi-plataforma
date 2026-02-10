@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "target": "es2022",
+    "module": "ESNext",
+    "lib": ["es2022", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mi-plataforma/shared-utils": ["libs/shared-utils/src/index.ts"],
+      "@mi-plataforma/shared/data-access-workers": [
+        "libs/shared/data-access-workers/src/index.ts"
+      ],
+      "@mi-plataforma/shared/ui-kit": ["libs/shared/ui-kit/src/index.ts"],
+      "@mi-plataforma/admin/feature-hr": ["libs/admin/feature-hr/src/index.ts"],
+      "@mi-plataforma/admin/feature-home": [
+        "libs/admin/feature-home/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
