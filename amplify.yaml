@@ -6,10 +6,9 @@ frontend:
         - npm ci
     build:
       commands:
-        # Aquí ya estamos en la raíz, no hace falta cd ../..
-        - npx nx build admin-dashboard --prod
+        # Añadimos --no-cloud para que no intente conectar con Nx Cloud
+        - npx nx build admin-dashboard --prod --no-cloud
   artifacts:
-    # Ruta absoluta desde la raíz
     baseDirectory: dist/apps/admin-dashboard/browser
     files:
       - '**/*'
