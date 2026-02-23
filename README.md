@@ -61,7 +61,7 @@ libs/
 ├── admin/              # Librerías de funcionalidades (Feature-HR, Feature-Home)
 ├── shared/             # Acceso a datos, UI Kit y utilidades globales
 └── shared-utils/       # Interfaces, DTOs y modelos compartidos (TS)
-
+```
 Funcionalidades Principales
 Gestión de Personal (HR): CRUD completo de trabajadores con relaciones muchos-a-muchos con departamentos.
 
