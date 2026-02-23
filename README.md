@@ -75,28 +75,32 @@ Buscador en Tiempo Real: Filtrado reactivo mediante Angular Signals.
 
 🚀 Instalación y Uso
 Clonar el repositorio:
-
+```text
   git clone https://github.com/tu-usuario/tu-proyecto.git
   cd tu-proyecto
-
+```
 Instalar dependencias:
-
+```text
   npm install
-
+```
 Configurar variables de entorno:
 Crea un archivo .env en la raíz (o dentro de apps/api-server) con tus credenciales de Supabase:
-
+```text
   SUPABASE_URL=tu_url_aqui
   SUPABASE_KEY=tu_key_aqui
-
+```
 Ejecutar el proyecto:
+```text
   # Iniciar la API
   npx nx serve api-server
-  
+```
+Otra terminal
+```text
   # Iniciar el Dashboard
   npx nx serve admin-dashboard
-
+```
 📊 Grafo de Dependencias
 Para visualizar cómo interactúan las apps y librerías, ejecuta:
-
+```text
   npx nx graph
+```
