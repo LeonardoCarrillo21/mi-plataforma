@@ -1,37 +1,39 @@
-<p align="center">
-  <div align="center">
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/NXmonorepo.png" height="50" alt="Logo 1"/>
-      <figcaption>Nx monorepo</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/amplify.jpg
-      " height="50" alt="Logo 2"/>
-      <figcaption>AWS Amplify</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/angular.png" height="50" alt="Logo 3"/>
-      <figcaption>Angular</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/nestJS.png" height="50" alt="Logo 3"/>
-      <figcaption>NestJS</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/next.png" height="50" alt="Logo 3"/>
-      <figcaption>NextJS</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/supabase.jpg" height="50" alt="Logo 3"/>
-      <figcaption>Supabase</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px;">
-      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/typescript.png" height="50" alt="Logo 3"/>
-      <figcaption>TypeScript</figcaption>
-    </figure>
-    </div>
-</p>
-
+<table align="center" border="0">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/NXmonorepo.png?raw=true" height="50"><br>
+      <sub>Nx monorepo</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/amplify.jpg?raw=true" height="50"><br>
+      <sub>AWS Amplify</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/angular.png?raw=true" height="50"><br>
+      <sub>Angular</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/nestJS.png?raw=true" height="50"><br>
+      <sub>NestJS</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/next.png?raw=true" height="50"><br>
+      <sub>NextJS</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/supabase.jpg?raw=true" height="50"><br>
+      <sub>Supabase</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/typescript.png?raw=true" height="50"><br>
+      <sub>TypeScript</sub>
+    </td>
+    <td align="center">
+      </td>
+  </tr>
+</table>
 
 🚀 ERP Multi-Módulo (Monorepo)
 Este es un sistema de gestión empresarial (ERP) desarrollado con una arquitectura de Monorepo moderna. El proyecto centraliza la lógica de un E-commerce, un API-Server y un Dashboard Administrativo, utilizando tecnologías de vanguardia para garantizar escalabilidad y rendimiento.
