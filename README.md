@@ -1,5 +1,36 @@
-
-
+<p align="center">
+  <div align="center">
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/NXmonorepo.png" height="50" alt="Logo 1"/>
+      <figcaption>Nx monorepo</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/amplify.jpg
+      " height="50" alt="Logo 2"/>
+      <figcaption>AWS Amplify</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/angular.png" height="50" alt="Logo 3"/>
+      <figcaption>Angular</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/nestJS.png" height="50" alt="Logo 3"/>
+      <figcaption>NestJS</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/next.png" height="50" alt="Logo 3"/>
+      <figcaption>NextJS</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/supabase.jpg" height="50" alt="Logo 3"/>
+      <figcaption>Supabase</figcaption>
+    </figure>
+    <figure style="display: inline-block; margin: 10px;">
+      <img src="https://github.com/LeonardoCarrillo21/mi-plataforma/blob/main/GitImages/typescript.png" height="50" alt="Logo 3"/>
+      <figcaption>TypeScript</figcaption>
+    </figure>
+    </div>
+</p>
 
 
 🚀 ERP Multi-Módulo (Monorepo)
