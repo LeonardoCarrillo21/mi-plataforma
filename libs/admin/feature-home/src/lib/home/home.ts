@@ -14,7 +14,7 @@ import { ChartConfiguration, ChartData, ChartType } from 'chart.js';
   templateUrl: './home.html',
 })
 export class HomeComponent implements OnInit {
-  public miVariableSignal =  signal<string>('Hola desde Signal');
+  // public miVariableSignal =  signal<string>('Hola desde Signal');
   private workerService = inject(WorkerService);
   private financeService = inject(FinanceService);
   // Usamos computed para que se recalculen solas si la lista de workers cambia
