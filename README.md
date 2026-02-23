@@ -1,77 +1,69 @@
-# MiPlataforma
-
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
-
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
-
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/intro#learn-nx?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
-
-## Finish your remote caching setup
-
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/zu86h8KPEK)
 
 
-## Run tasks
-
-To run tasks with Nx use:
-
-```sh
-npx nx <target> <project-name>
-```
-
-For example:
-
-```sh
-npx nx build myproject
-```
-
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
-
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Add new projects
-
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
-
-To install a new plugin you can use the `nx add` command. Here's an example of adding the React plugin:
-```sh
-npx nx add @nx/react
-```
-
-Use the plugin's generator to create new projects. For example, to create a new React app or library:
-
-```sh
-# Generate an app
-npx nx g @nx/react:app demo
-
-# Generate a library
-npx nx g @nx/react:lib some-lib
-```
-
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
-
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+🚀 ERP Multi-Módulo (Monorepo)
+Este es un sistema de gestión empresarial (ERP) desarrollado con una arquitectura de Monorepo moderna. El proyecto centraliza la lógica de un E-commerce, un API-Server y un Dashboard Administrativo, utilizando tecnologías de vanguardia para garantizar escalabilidad y rendimiento.
 
-## Install Nx Console
+🛠️ Stack Tecnológico
+Frontend: Angular 18+ (Signals, Standalone Components, Tailwind CSS).
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+Backend: NestJS (Modular Architecture, Class Validator, DTOs).
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+Base de Datos: Supabase (PostgreSQL + RLS + Auth).
 
-## Useful links
+Herramientas de Monorepo: Nx (Librerías compartidas, Dependency Graph).
 
-Learn more:
+Lógica de Negocio: Integración con Excel (XLSX) y Gráficas en tiempo real (Chart.js).
 
-- [Learn more about this workspace setup](https://nx.dev/getting-started/intro#learn-nx?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+📂 Estructura del Proyecto
+El proyecto se divide en librerías de dominio para maximizar la reutilización de código:
 
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+apps/
+ ├── admin-dashboard/   # Cascarón (Shell) del panel administrativo
+ ├── api-server/        # API REST con NestJS
+ └── ecommerce/         # Aplicación orientada al cliente final
+libs/
+ ├── admin/             # Librerías de funcionalidades (Feature-HR, Feature-Home)
+ ├── shared/            # Acceso a datos, UI Kit y utilidades globales
+ └── shared-utils/      # Interfaces, DTOs y modelos compartidos (TS)
+
+
+Funcionalidades Principales
+Gestión de Personal (HR): CRUD completo de trabajadores con relaciones muchos-a-muchos con departamentos.
+
+Business Intelligence: Dashboard con métricas calculadas (Nómina total, promedio salarial) y gráficas de barras dinámicas.
+
+Importación Masiva: Procesamiento de archivos Excel para carga rápida de datos con barra de progreso.
+
+Paginación del Servidor: Manejo eficiente de grandes volúmenes de datos directamente desde la API.
+
+Buscador en Tiempo Real: Filtrado reactivo mediante Angular Signals.
+
+🚀 Instalación y Uso
+Clonar el repositorio:
+
+  git clone https://github.com/tu-usuario/tu-proyecto.git
+  cd tu-proyecto
+
+Instalar dependencias:
+
+  npm install
+
+Configurar variables de entorno:
+Crea un archivo .env en la raíz (o dentro de apps/api-server) con tus credenciales de Supabase:
+
+  SUPABASE_URL=tu_url_aqui
+  SUPABASE_KEY=tu_key_aqui
+
+Ejecutar el proyecto:
+  # Iniciar la API
+  npx nx serve api-server
+  
+  # Iniciar el Dashboard
+  npx nx serve admin-dashboard
+
+📊 Grafo de Dependencias
+Para visualizar cómo interactúan las apps y librerías, ejecuta:
+
+  npx nx graph
