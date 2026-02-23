@@ -49,18 +49,18 @@ Herramientas de Monorepo: Nx (Librerías compartidas, Dependency Graph).
 
 Lógica de Negocio: Integración con Excel (XLSX) y Gráficas en tiempo real (Chart.js).
 
-📂 Estructura del Proyecto
-El proyecto se divide en librerías de dominio para maximizar la reutilización de código:
+### 📂 Estructura del Proyecto
 
+```text
 apps/
- ├── admin-dashboard/   # Cascarón (Shell) del panel administrativo
- ├── api-server/        # API REST con NestJS
- └── ecommerce/         # Aplicación orientada al cliente final
-libs/
- ├── admin/             # Librerías de funcionalidades (Feature-HR, Feature-Home)
- ├── shared/            # Acceso a datos, UI Kit y utilidades globales
- └── shared-utils/      # Interfaces, DTOs y modelos compartidos (TS)
+├── admin-dashboard/    # Cascarón (Shell) del panel administrativo
+├── api-server/         # API REST con NestJS
+└── ecommerce/           # Aplicación orientada al cliente final
 
+libs/
+├── admin/              # Librerías de funcionalidades (Feature-HR, Feature-Home)
+├── shared/             # Acceso a datos, UI Kit y utilidades globales
+└── shared-utils/       # Interfaces, DTOs y modelos compartidos (TS)
 
 Funcionalidades Principales
 Gestión de Personal (HR): CRUD completo de trabajadores con relaciones muchos-a-muchos con departamentos.
